@@ -1,4 +1,10 @@
 # panspectrome
 MALDI-TOF panspectrome tools
 
-This is a line from RStudio
+Pour installer moduleColor, d'apbord installer impute :
+
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("impute")
+
